@@ -120,15 +120,76 @@ for i in range(81):
     sudoku_col_1.remove(spot_1)
     sudoku_square_1.remove(spot_1)
   elif i == 1:
-    spot_2 = random.choice(sudoku_row_2)
+    spot_2 = random.choice(sudoku_row_1)
     sudoku_row_1.remove(spot_2)
     sudoku_col_2.remove(spot_2)
     sudoku_square_1.remove(spot_2)
   elif i == 2:
-    spot_3 = random.choice(sudoku_row_3)
+    spot_3 = random.choice(sudoku_row_1)
     sudoku_row_1.remove(spot_3)
     sudoku_col_3.remove(spot_3)
     sudoku_square_1.remove(spot_3)
+  elif i == 3:
+    spot_4 = random.choice(sudoku_row_1)
+    sudoku_row_1.remove(spot_4)
+    sudoku_col_4.remove(spot_4)
+    sudoku_square_2.remove(spot_4)
+  elif i == 4:
+    spot_5 = random.choice(sudoku_row_1)
+    sudoku_row_1.remove(spot_5)
+    sudoku_col_5.remove(spot_5)
+    sudoku_square_2.remove(spot_5)
+  elif i == 5:
+    spot_6 = random.choice(sudoku_row_1)
+    sudoku_row_1.remove(spot_6)
+    sudoku_col_6.remove(spot_6)
+    sudoku_square_2.remove(spot_6)
+  elif i == 6:
+    spot_7 = random.choice(sudoku_row_1)
+    sudoku_row_1.remove(spot_7)
+    sudoku_col_7.remove(spot_7)
+    sudoku_square_3.remove(spot_7)
+  elif i == 7:
+    spot_8 = random.choice(sudoku_row_1)
+    sudoku_row_1.remove(spot_8)
+    sudoku_col_8.remove(spot_8)
+    sudoku_square_3.remove(spot_8)
+  elif i == 8:
+    spot_9 = random.choice(sudoku_row_1)
+    sudoku_row_1.remove(spot_9)
+    sudoku_col_9.remove(spot_9)
+    sudoku_square_3.remove(spot_9)
+  elif i == 9:
+    spot_10 = random.choice(sudoku_row_2)
+    sudoku_row_2.remove(spot_10)
+    sudoku_col_1.remove(spot_10)
+    sudoku_square_4.remove(spot_10)
+  elif i == 10:
+    spot_11 = random.choice(sudoku_row_2)
+    sudoku_row_2.remove(spot_11)
+    sudoku_col_2.remove(spot_11)
+    sudoku_square_4.remove(spot_11)
+  elif i == 11:
+    spot_12 = random.choice(sudoku_row_2)
+    sudoku_row_2.remove(spot_12)
+    sudoku_col_3.remove(spot_12)
+    sudoku_square_4.remove(spot_12)
+  elif i == 12:
+    spot_13 = random.choice(sudoku_row_2)
+    sudoku_row_2.remove(spot_13)
+    sudoku_col_4.remove(spot_13)
+    sudoku_square_5.remove(spot_13)
+  elif i == 13:
+    spot_14 = random.choice(sudoku_row_2)
+    sudoku_row_2.remove(spot_14)
+    sudoku_col_5.remove(spot_14)
+    sudoku_square_5.remove(spot_14)
+  elif i == 14:
+    spot_15 = random.choice(sudoku_row_2)
+    sudoku_row_2.remove(spot_15)
+    sudoku_col_6.remove(spot_15)
+    sudoku_square_5.remove(spot_15)
+  
 
   
 sudoku_board_row1 = [[spot_1, spot_2, spot_3] , [spot_4, spot_5, spot_6], [spot_7, spot_8, spot_9]]

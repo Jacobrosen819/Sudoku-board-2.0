@@ -161,34 +161,67 @@ for i in range(81):
     sudoku_square_3.remove(spot_9)
   elif i == 9:
     spot_10 = random.choice(sudoku_row_2)
+    while spot_10 not in sudoku_col_1:
+      spot_10 = random.choice(sudoku_row_2)
     sudoku_row_2.remove(spot_10)
     sudoku_col_1.remove(spot_10)
     sudoku_square_4.remove(spot_10)
   elif i == 10:
     spot_11 = random.choice(sudoku_row_2)
+    while spot_11 not in sudoku_col_2:
+      spot_11 = random.choice(sudoku_row_2)
     sudoku_row_2.remove(spot_11)
     sudoku_col_2.remove(spot_11)
     sudoku_square_4.remove(spot_11)
   elif i == 11:
     spot_12 = random.choice(sudoku_row_2)
+    while spot_12 not in sudoku_col_3:
+      spot_12 = random.choice(sudoku_row_2)
     sudoku_row_2.remove(spot_12)
     sudoku_col_3.remove(spot_12)
     sudoku_square_4.remove(spot_12)
   elif i == 12:
     spot_13 = random.choice(sudoku_row_2)
+    while spot_13 not in sudoku_col_4:
+      spot_13 = random.choice(sudoku_row_2)
     sudoku_row_2.remove(spot_13)
     sudoku_col_4.remove(spot_13)
     sudoku_square_5.remove(spot_13)
   elif i == 13:
     spot_14 = random.choice(sudoku_row_2)
+    while spot_14 not in sudoku_col_5:
+      spot_14 = random.choice(sudoku_row_2)
     sudoku_row_2.remove(spot_14)
     sudoku_col_5.remove(spot_14)
     sudoku_square_5.remove(spot_14)
   elif i == 14:
     spot_15 = random.choice(sudoku_row_2)
+    while spot_15 not in sudoku_col_6:
+      spot_15 = random.choice(sudoku_row_2)
     sudoku_row_2.remove(spot_15)
     sudoku_col_6.remove(spot_15)
     sudoku_square_5.remove(spot_15)
+  elif i == 15:
+    spot_16 = random.choice(sudoku_row_2)
+    while spot_16 not in sudoku_col_7:
+      spot_16 = random.choice(sudoku_row_2)
+    sudoku_row_2.remove(spot_16)
+    sudoku_col_7.remove(spot_16)
+    sudoku_square_6.remove(spot_16)
+  elif i == 16:
+    spot_17 = random.choice(sudoku_row_2)
+    while spot_17 not in sudoku_col_8:
+      spot_17 = random.choice(sudoku_row_2)
+    sudoku_row_2.remove(spot_17)
+    sudoku_col_8.remove(spot_17)
+    sudoku_square_6.remove(spot_17)
+  elif i == 17:
+    spot_18 = random.choice(sudoku_row_2)
+    while spot_18 not in sudoku_col_9:
+      spot_18 = random.choice(sudoku_row_2)
+    sudoku_row_2.remove(spot_18)
+    sudoku_col_9.remove(spot_18)
+    sudoku_square_6.remove(spot_18)
   
 
   
